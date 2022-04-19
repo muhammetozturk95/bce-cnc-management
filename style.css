@@ -1,0 +1,55 @@
+/* #header > span {
+    display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: xx-large;
+  font-weight: bolder;
+} */
+
+header > h3 {
+  font-weight: bolder;
+  
+}
+
+
+
+label {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1600px) {
+
+    form {
+      margin-bottom: 100px;
+    }
+
+    #footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+
+  
+
+  @media screen and (max-width: 694px) {  /*mobilde submit butonu ile tur sayısı alanını ayırmak için */
+    #cycle,#marginUsageStatus,#marginHonerStatus {
+        margin-bottom: 30px;
+        
+    }
+
+    #footer {
+      display: none;
+    }
+    
+    
+  }
+
+
+
+
+
+
+
+
+
