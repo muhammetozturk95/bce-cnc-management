@@ -5,12 +5,44 @@ let bileyKayitFormOpen = document.getElementById("bileyKayitFormOpen");
 let firstRow = document.getElementById("firstRow");
 let footer = document.getElementById("footer");
 
+// NEGATİF DEĞERLERİN ENGELLENMESİ BAŞLANGIÇ
+const drawingNumberDOM = document.getElementById("drawingNumber");
+const glassQuantityDOM = document.getElementById("glassQuantity");
+const glassWidthDOM = document.getElementById("glassWidth");
+const glassLengthDOM = document.getElementById("glassLength");
+const cycleCountDOM = document.getElementById("cycleCount");
+const phValueDOM = document.getElementById("phValue");
+const conductivityDOM = document.getElementById("conductivity");
+const drillingDOM = document.getElementById("drilling");
+const routerDOM = document.getElementById("router");
+
+drawingNumberDOM.addEventListener("change", notAllowNegative);
+glassQuantityDOM.addEventListener("change", notAllowNegative);
+glassWidthDOM.addEventListener("change", notAllowNegative);
+glassLengthDOM.addEventListener("change", notAllowNegative);
+cycleCountDOM.addEventListener("change", notAllowNegative);
+phValueDOM.addEventListener("change", notAllowNegative);
+conductivityDOM.addEventListener("change", notAllowNegative);
+drillingDOM.addEventListener("change", notAllowNegative);
+routerDOM.addEventListener("change", notAllowNegative);
+
+function notAllowNegative(e) {
+    if(e.target.value <= 0) {
+
+        alert(`${e.target.name} sıfırdan büyük bir tam sayı olmalıdır.`)
+        e.target.value = 0;
+    }
+}
+
+// NEGATİF DEĞERLERİN ENGELLENMESİ BİTİŞ
+
 /* üretim formu toggle */
 uretimFormOpen.addEventListener("click", uretimFormToggle);
 
 function uretimFormToggle(e) {
     e.preventDefault();
-    let uretimForm = document.getElementById("uretimForm")
+    let uretimForm = document.getElementById("uretimForm");
+    
     
     firstRow.classList.replace("justify-content-center","justify-content-start");
 
@@ -19,6 +51,8 @@ function uretimFormToggle(e) {
         phFormOpen.classList.add("d-none");
         tasKayitFormOpen.classList.add("d-none");
         bileyKayitFormOpen.classList.add("d-none");
+        
+        
 
     } else {
         uretimForm.classList.add("d-none");
@@ -26,6 +60,8 @@ function uretimFormToggle(e) {
         tasKayitFormOpen.classList.remove("d-none");
         bileyKayitFormOpen.classList.remove("d-none")
         firstRow.classList.replace("justify-content-start","justify-content-center");
+        
+        
     }
     
 }

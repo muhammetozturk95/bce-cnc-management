@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "brand": "DIAMUT",        
+        "toolType": "disk",
+        "processType": "sektör",
+        "description": "6 mm Sektör D151 kum",
+        "diameter": 100,
+        "thickness": 6,
+        "form": "",
+        "grit": "D151",
+        "toolCode": "S-H6-D151-1" 
+    },
+
+    {
+        "id": 2,
+        "brand": "DIAMUT",        
+        "toolType": "disk",
+        "processType": "sektör",
+        "description": "8 mm Sektör D151 kum",
+        "diameter": 100,
+        "thickness": 8,
+        "form": "",
+        "grit": "D151",
+        "toolCode": "S-H8-D151-1"  
+    },
+
+    {
+        "id": 3,
+        "brand": "DIAMUT",        
+        "toolType": "disk",
+        "processType": "sektör",
+        "description": "10 mm Sektör D181 kum",
+        "diameter": 100,
+        "thickness": 10,
+        "form": "",
+        "grit": "D181",
+        "toolCode": "S-H10-D151-1"
+    },
+
+    {
+        "id": 4,
+        "brand": "DIAMUT",        
+        "toolType": "disk",
+        "processType": "sektör",
+        "description": "12 mm Sektör D181 kum",
+        "diameter": 100,
+        "thickness": 12,
+        "form": "",
+        "grit": "D181",
+        "toolCode": "S-H12-D181-1" 
+    },
+
+    {
+        "id": 5,
+        "brand": "DIAMUT",        
+        "toolType": "disk",
+        "processType": "sektör",
+        "description": "15 mm Sektör D181 kum",
+        "diameter": 100,
+        "thickness": 15,
+        "form": "",
+        "grit": "D181",
+        "toolCode": "S-H15-D181-1" 
+    },
+
+    {
+        "id": 6,
+        "brand": "DIAMUT",        
+        "toolType": "disk",
+        "processType": "sektör",
+        "description": "19 mm Sektör D252 kum",
+        "diameter": 100,
+        "thickness": 19,
+        "form": "",
+        "grit": "D252",
+        "toolCode": "S-H19-D252-1"
+    },
+
+    {
+        "id": 7,
+        "brand": "DIAMUT",        
+        "toolType": "disk",
+        "processType": "rodaj",
+        "description": "6 mm R2 Rodaj D91 kum",
+        "diameter": 100,
+        "thickness": 6,
+        "form": "R2",
+        "grit": "D91" ,
+        "toolCode": "R-H6-R2-D91-1"
+    },
+
+    {
+        "id": 8,
+        "brand": "DIAMUT",        
+        "toolType": "disk",
+        "processType": "rodaj",
+        "description": "8 mm R2 Rodaj D91 kum",
+        "diameter": 100,
+        "thickness": 8,
+        "form": "R2",
+        "grit": "D91" ,
+        "toolCode": "R-H8-R2-D91-1"
+    },
+
+    {
+        "id": 9,
+        "brand": "DIAMUT",        
+        "toolType": "disk",
+        "processType": "rodaj",
+        "description": "10 mm R2 Rodaj D91 kum",
+        "diameter": 100,
+        "thickness": 10,
+        "form": "R2",
+        "grit": "D91" ,
+        "toolCode": "R-H10-R2-D91-1"
+    },
+
+    {
+        "id": 10,
+        "brand": "DIAMUT",
+        "toolType": "disk",
+        "processType": "rodaj",
+        "description": "12 mm R2 Rodaj D91 kum",
+        "diameter": 100,
+        "thickness": 12,
+        "form": "R2",
+        "grit": "D91" ,
+        "toolCode": "R-H12-R2-D91-1"
+    },
+
+    {
+        "id": 11,
+        "brand": "DIAMUT",
+        "toolType": "disk",
+        "processType": "rodaj",
+        "description": "15 mm R2 Rodaj D91 kum",
+        "diameter": 100,
+        "thickness": 15,
+        "form": "R2",
+        "grit": "D91" ,
+        "toolCode": "R-H15-R2-D91-1"
+    },
+
+    {
+        "id": 12,
+        "brand": "DIAMUT",
+        "toolType": "disk",
+        "processType": "rodaj",
+        "description": "19 mm R2 Rodaj D107 kum",
+        "diameter": 100,
+        "thickness": 19,
+        "form": "R2",
+        "grit": "D91" ,
+        "toolCode": "R-H19-R2-D107-1"
+    }
+]
